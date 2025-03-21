@@ -3,5 +3,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('pages.urls')),  # Make sure this line is included
+    path('', include('pages.urls')),  # Include pages.urls for the root URL
 ]
