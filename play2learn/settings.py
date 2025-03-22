@@ -29,7 +29,8 @@ INSTALLED_APPS = [
 
     # local apps
     'pages',
-    'games',
+    'anagramhunt',
+    'mathfacts',
 ]
 
 MIDDLEWARE = [
